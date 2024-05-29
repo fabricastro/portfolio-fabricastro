@@ -1,7 +1,7 @@
 import React from 'react'
 import './Contact.css'
 import {MdOutlineEmail} from 'react-icons/md'
-import {RiMessengerLine} from 'react-icons/ri'
+import {BsLinkedin} from 'react-icons/bs'
 import {AiOutlineWhatsApp} from 'react-icons/ai'
 
 
@@ -21,10 +21,10 @@ export const Contact = () => {
           </article>
           
           <article className="contact__option">
-            <RiMessengerLine className='contact__option-icon' />
-            <h4>Messenger</h4>
+            <BsLinkedin className='contact__option-icon' />
+            <h4>LinkedIn</h4>
             <h5>Fabricio Castro</h5>
-            <a href="https://m.me/fabricio.castro.9028" target={'_blank'}>Enviame un mensaje</a>
+            <a href="https://www.linkedin.com/in/fabricio-castrodev/" target={'_blank'}>Enviame un mensaje</a>
           </article>
           
           <article className="contact__option">

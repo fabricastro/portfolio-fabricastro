@@ -74,7 +74,7 @@ header{
         
          /* MEDIA QUERIES(TELEFONOS) */
         
-     @media screen and (max-width:600px){   
+     @media screen and (max-width:1024px){   
         header {
         height: 100vh;
             }

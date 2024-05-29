@@ -44,6 +44,7 @@
     text-align: center;
     transition: var(--transition);
     align-items: center;
+    height: 100%;
     }
     
     .about__card:hover{

@@ -19,15 +19,9 @@ export const About = () => {
         </div>
 
         <div className="about__content">
-          
+
           <p>
-            Soy un apasionado desarrollador de software con experiencia en el
-            campo del frontend. En mi actual empleo desarrollo los portales
-            institucionales de la provincia de San Juan, Argentina, utilizando tecnologías como VUE.JS, PHP, WORDPRESS. Tengo una
-            experiencia sólida en WordPress, WooCommerce y Elementor, donde he
-            trabajado en la creación de distintos sitios web personalizados y
-            tiendas en línea, brindando a mis clientes soluciones altamente
-            personalizadas y efectivas.
+          Soy estudiante avanzado de Desarrollo de Software en la Universidad Católica de Cuyo. Mi objetivo es convertirme en un desarrollador de alto rendimiento, adquiriendo nuevas habilidades y manteniéndome actualizado con las últimas tendencias tecnológicas. Trabajo como Desarrollador Frontend en la Dirección Provincial de Informática de San Juan, utilizando tecnologías como React, Angular, Vue.js, PHP, APIs, Git, GitHub y Postman. Soy apasionado, comprometido y disfruto trabajar en equipo para crear soluciones de software de alta calidad.
           </p>
 
           <div className="about__cards">
@@ -37,21 +31,21 @@ export const About = () => {
               <small> 2+ Trabajando</small>
             </article>
 
-          <a href="#portfolio">
-            <article className="about__card">
-              <BsFolder2Open className="about__icon" />
-              <h5>Proyectos</h5>
-              <small> Algunos de mis proyectos</small>
-            </article>
-          </a>
+            <a href="#portfolio">
+              <article className="about__card">
+                <BsFolder2Open className="about__icon" />
+                <h5>Proyectos</h5>
+                <small> Algunos de mis proyectos</small>
+              </article>
+            </a>
 
-          <a href="https://technodevs.com.ar/" target="_blank">
-            <article className="about__card">
-              <MdBusiness className="about__icon" />
-              <h5>Emprendimiento</h5>
-              <small> Technodevs - Agencia de desarrollo</small>
-            </article>
-          </a>
+            <a href="https://technodevs.com.ar/" target="_blank">
+              <article className="about__card">
+                <MdBusiness className="about__icon" />
+                <h5>Emprendimiento</h5>
+                <small> Technodevs - Agencia de desarrollo</small>
+              </article>
+            </a>
           </div>
 
           <a href="#contact" className="btn btn-primary">

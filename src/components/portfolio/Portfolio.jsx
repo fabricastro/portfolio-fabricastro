@@ -20,6 +20,7 @@ export const Portfolio = () => {
           <img src={IMG1} alt="" />
         </div>
         <h3> Valorant Wiki</h3>
+        <p>Credenciales para ingresar: <br /> Usuario: admin <br /> Contraseña: 1234</p>
       <div className="portfolio__item-cta">
         <a href="https://github.com/fabricastro" className='btn' target='_blank'>GitHub</a>
         <a href="https://valorant-wiki-7mowuzn6r-fabricastro.vercel.app" className='btn btn-primary' target='_blank'>Demo</a>        
@@ -40,9 +41,9 @@ export const Portfolio = () => {
         <div className='portfolio__item-image'>
           <img src={IMG3} alt="" />
         </div>
-        <h3> INC Zapatos </h3>
+        <h3> Club de Titanes </h3>
         <div className="portfolio__item-cta">
-        <a href="https://inczapatos.com.ar/" className='btn btn-primary' target='_blank'>Ver</a>  
+        <a href="https://titanesclub.com/" className='btn btn-primary' target='_blank'>Ver</a>  
         </div>
       </article>
       
