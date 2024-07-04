@@ -3,18 +3,20 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 2.5rem;
     }
-    
+    h5{
+        font-size: 1.2rem !important;
+    }
     .portfolio__item{
-    background: var(--color-bg-variant);
+    background: #13111C;
+    box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
     padding: 1.3rem;
     border-radius: 2rem;
-    border: 1px solid transparent;
+    border: 1px solid #183367;
     transition: var(--transition);
     }
     
     .portfolio__item:hover{
     border-color: var(--color-primary-variant);
-    background: transparent;
     }
     
     .portfolio__item-image{

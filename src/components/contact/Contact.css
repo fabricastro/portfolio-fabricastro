@@ -1,5 +1,5 @@
 .container.contact__container {
-    width: 58%;
+    width: 20%;
     display: grid;
     grid-template-columns:100%;
     gap: 12%;
@@ -20,7 +20,6 @@
     text-align: center;
     border: 1px solid transparent;
     transition: var(--transition);
-
 }
 
 .contact__option:hover{

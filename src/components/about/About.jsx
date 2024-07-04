@@ -8,7 +8,6 @@ import { MdBusiness } from "react-icons/md";
 export const About = () => {
   return (
     <section id="about">
-      <h5> Ver </h5>
       <h2>Sobre mi</h2>
 
       <div className="about__container container">

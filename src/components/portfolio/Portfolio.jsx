@@ -11,7 +11,7 @@ import IMG6 from '../../assets/portfolio6.png'
 export const Portfolio = () => {
   return (
    <section id='portfolio'>
-    <h5>Mis trabajos recientes</h5>
+    <h5 className='font-bold'>Mis trabajos recientes</h5>
     <h2>Portfolio</h2>
     
     <div className="container portfolio__container">

@@ -1,6 +1,8 @@
 import React from 'react'
 import './Experience.css'
-import {BsPatchCheckFill} from 'react-icons/bs'
+import { SiWoo } from "react-icons/si";
+import { FaHtml5, FaCss3Alt, FaReact, FaVuejs, FaPhp, FaWordpress, FaElementor } from "react-icons/fa";
+import { IoLogoJavascript } from "react-icons/io5";
 
 export const Experience = () => {
   return (
@@ -13,61 +15,61 @@ export const Experience = () => {
         <h3>Desarrollo Frontend</h3>
           <div className="experience__content">
             <article className='experience_details'>
-              <BsPatchCheckFill className='experience__details-icons'/>
+              <FaHtml5  className='experience__details-icons'/>
               <h4>HTML</h4>
               <small className='text-light'>Experiencia</small>
             </article>
             <article className='experience_details'>
-              <BsPatchCheckFill className='experience__details-icons'/>
+              <FaCss3Alt  className='experience__details-icons'/>
               <div>
               <h4>CSS</h4>
               <small className='text-light'>Experiencia</small>
               </div>
             </article>
             <article className='experience_details'>
-              <BsPatchCheckFill className='experience__details-icons'/>
+              <IoLogoJavascript className='experience__details-icons'/>
               <div>
               <h4>JavaScript</h4>
               <small className='text-light'>Experiencia</small>
               </div>
             </article>
             <article className='experience_details'>
-              <BsPatchCheckFill className='experience__details-icons'/>
+              <FaReact  className='experience__details-icons'/>
               <div>
               <h4>React Js</h4>
               <small className='text-light'>Experiencia</small>
               </div>
             </article>
             <article className='experience_details'>
-              <BsPatchCheckFill className='experience__details-icons'/>
+              <FaVuejs  className='experience__details-icons'/>
               <div>
               <h4>Vue</h4>
               <small className='text-light'>Experiencia</small>
               </div>
             </article>
             <article className='experience_details'>
-              <BsPatchCheckFill className='experience__details-icons'/>
+              <FaPhp  className='experience__details-icons'/>
               <div>
               <h4>PHP</h4>
               <small className='text-light'>Experiencia</small>
               </div>
             </article>
             <article className='experience_details'>
-              <BsPatchCheckFill className='experience__details-icons'/>
+              <FaWordpress className='experience__details-icons'/>
               <div>
               <h4>Wordpress</h4>
               <small className='text-light'>Experiencia</small>
               </div>
             </article>
             <article className='experience_details'>
-              <BsPatchCheckFill className='experience__details-icons'/>
+              <FaElementor className='experience__details-icons'/>
               <div>
               <h4>Elementor</h4>
               <small className='text-light'>Experiencia</small>
               </div>
             </article>
             <article className='experience_details'>
-              <BsPatchCheckFill className='experience__details-icons'/>
+              <SiWoo  className='experience__details-icons'/>
               <div>
               <h4>WooCommerce</h4>
               <small className='text-light'>Experiencia</small>

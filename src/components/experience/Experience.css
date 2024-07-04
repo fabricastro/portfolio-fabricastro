@@ -4,15 +4,15 @@
     }
     
     .experience__container > div {
-     background: var(--color-bg-variant);
+     background: #13111C;
+     box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
      padding: 2.4rem 5rem;
      border-radius: 2rem;
-     border: 1px solid transparent;
+     border: 1px solid #183367;
      transition: var(--transition);
     }
     
     .experience__container > div:hover {
-    background: transparent;
     border-color: var(--color-primary-variant);
     cursor: default;
     }
@@ -46,7 +46,9 @@
         align-items: center;
         gap: 4px;
     }
-    
+    .experience__details-icons{
+        font-size: 30px;
+    }
     /* MEDIA QUERIES(TABLETS) */
         
     @media screen and (max-width:1024px){   
