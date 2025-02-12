@@ -23,6 +23,16 @@
     border-radius: 1.5rem;
     overflow: hidden;
     }
+
+    .container-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .portfolio__item-image img{
+        height: 250px;
+    }
     
     .portfolio__item h3{
     margin: 1.2rem 0 2rem;
