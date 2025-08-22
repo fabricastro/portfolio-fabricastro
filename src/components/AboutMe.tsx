@@ -12,6 +12,11 @@ import {
     SiPrisma,
     SiPostgresql,
     SiDocker,
+    SiNodedotjs,
+    SiPhp,
+    SiMysql,
+    SiMongodb,
+    SiVuedotjs,
 } from 'react-icons/si'
 
 const skills = [
@@ -19,10 +24,15 @@ const skills = [
     { label: 'TypeScript', icon: SiTypescript },
     { label: 'Next.js', icon: SiNextdotjs },
     { label: 'React', icon: SiReact },
+    { label: 'Vue.js', icon: SiVuedotjs },
     { label: 'Tailwind CSS', icon: SiTailwindcss },
     { label: 'Prisma', icon: SiPrisma },
     { label: 'PostgreSQL', icon: SiPostgresql },
     { label: 'Docker', icon: SiDocker },
+    { label: 'Node.js', icon: SiNodedotjs },
+    { label: 'PHP', icon: SiPhp },
+    { label: 'MySQL', icon: SiMysql },
+    { label: 'MongoDB', icon: SiMongodb },
 ]
 
 
