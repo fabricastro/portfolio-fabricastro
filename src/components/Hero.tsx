@@ -32,7 +32,7 @@ export const Hero = () => {
                     </Button>
                     <Button
                         variant="green2"
-                        onClick={() => window.open("/assets/CV-FabricioCastro.pdf")}
+                        onClick={() => window.open("/assets/CV-Fabricio-Castro.pdf")}
                     >
                         Ver CV
                     </Button>
@@ -51,14 +51,14 @@ export const Hero = () => {
                     className="rounded-full w-36 h-36 md:w-58 md:h-58 bg-blue-900 border-2 border-cyan-400 shadow-md"
                 />
 
-                <span className="relative inline-flex overflow-hidden rounded-full p-[1px]">
+                {/* <span className="relative inline-flex overflow-hidden rounded-full p-[1px]">
                     <a href="https://www.linkedin.com/in/fabricio-castrodev/" target="_blank" rel="noopener noreferrer">
                         <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#22d3ee_0%,#0f766e_50%,#22d3ee_100%)]" />
                         <div className="inline-flex items-center justify-center w-full px-4 py-1 text-sm text-green-800 bg-green-100 rounded-full cursor-pointer dark:bg-gray-800 dark:text-white/80 backdrop-blur-3xl whitespace-nowrap z-10 relative">
                             Disponible para trabajar
                         </div>
                     </a>
-                </span>
+                </span> */}
             </motion.div>
         </section>
     )
