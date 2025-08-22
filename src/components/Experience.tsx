@@ -12,6 +12,13 @@ type ExperienceItem = {
 
 const experiences: ExperienceItem[] = [
     {
+        title: "Desarrollador Backend",
+        company: "San Juan, Argentina",
+        date: "Mayo 2025 - Actualidad",
+        description:
+            "Desarrollo y mantenimiento de funcionalidades backend para soluciones empresariales. Integración de servicios utilizando PHP y Node.js. Colaboración en equipo ágil para optimización de procesos y rendimiento. Tecnologías utilizadas: PHP, Node.js, MySQL, Mongo, REST APIs, Git, AWS.",
+    },
+    {
         title: "Frontend Developer",
         company: "Gobierno Digital - Gobierno de San Juan",
         date: "Enero 2023 - Actualidad",
